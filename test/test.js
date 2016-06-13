@@ -7,5 +7,4 @@ describe ('GET', function(){
 	it('expects HTTP status 200', function(done){
 	   request(app).get('/').expect(200, done);
 	});
-	});
-}
+});
