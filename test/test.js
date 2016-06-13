@@ -1,6 +1,6 @@
 'use strict';
 
-var request = require("supertest");
+var request = require("supertest"),
 app = require("../app").getApp;
 
 describe ('GET', function(){
